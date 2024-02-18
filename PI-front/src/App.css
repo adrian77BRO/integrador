@@ -1,0 +1,85 @@
+#login{
+  background: linear-gradient(to bottom right, rgb(29, 224, 29), rgb(10, 121, 9));
+  width: 400px;
+  padding: 30px;
+}
+
+#registro{
+  background: linear-gradient(to bottom right, rgb(29, 224, 29), rgb(10, 121, 9));
+  width: 400px;
+  padding: 30px;
+}
+
+.imagen{
+  width: 500px;
+  height: 450px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.error{
+  color: rgb(245, 16, 16);
+}
+
+#carrusel{
+  height: 500px;
+  width: 900px;
+  border-radius: 20px;
+  padding: 35px;
+  opacity: .9;
+}
+
+#logo{
+  background-image: url("./img/logoST.jpeg");
+}
+
+.fondo{
+  background-image: url("./img/fondo.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#barra{
+  background: linear-gradient(to bottom right, rgb(245, 11, 11),rgb(243, 8, 63));
+}
+
+.link{
+  color: black;
+}
+
+#regProd{
+  background: linear-gradient(to bottom right, rgb(34, 214, 214), rgb(18, 147, 130));
+  width: 400px;
+  padding: 30px;
+}
+
+.tabla{
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(69, 216, 135));
+  max-height: 480px;
+  overflow-y: auto;
+}
+
+@media (max-width: 800px) {
+  th, td {
+    font-size: 12px;
+  }
+}
+
+.buscar{
+  border: none;
+  border-radius: 20px;
+}
+
+.barras{
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(69, 216, 135));
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+  opacity: .7;
+}
